@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  comment-microservice:
+    image: ${DOCKER_REGISTRY-}commentmicroservice
+    build:
+      context: .
+      dockerfile: ../comment-microservice/Dockerfile
+    ports: 
+      - "5902:80"
+      - "5903:443"
+
+  posts-microservice:
+    image: ${DOCKER_REGISTRY-}postsmicroservice
+    build:
+      context: .
+      dockerfile: ../posts-microservice/Dockerfile
+    ports: 
+      - "5900:80"
+      - "5901:443"
+
