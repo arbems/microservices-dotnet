@@ -1,2 +1,3 @@
 # microservices-dotnet
-Creando microservicios con .NET y ASP.NET Core: aplicación de múltiples contenedores con Docker Compose.
+Creando microservicios con .NET y ASP.NET Core
+* Aplicación de múltiples contenedores con Docker Compose.
