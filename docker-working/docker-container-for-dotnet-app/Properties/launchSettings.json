@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SampleTextLines": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
